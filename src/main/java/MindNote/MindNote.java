@@ -4,6 +4,7 @@ import javax.swing.*;
 import java.awt.event.*;
 
 import filereader.*;
+import graphvisualiser.*;
 
 import org.javatuples.Pair;
 
@@ -37,6 +38,7 @@ public class MindNote {
                     for (Pair<Integer, String> p : out) {
                         System.out.println(p);
                     }
+                    GraphVisualiser.GenerateGraph(out);
                 }
                 catch (Exception error){
                     System.out.println("Error");
