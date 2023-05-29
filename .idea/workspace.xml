@@ -4,22 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4f8fb42-0153-4dff-b94a-ff1514f63bbe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MindNote/MindNote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/filereader/FileReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/graph/Graph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
+    <list default="true" id="26694d5f-b33f-4837-bcd8-1bb74be6b9c2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/graphgenerator/GraphGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MindNote/MindNote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MindNote/MindNote.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/filereader/FileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/filereader/FileReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/graph/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/graphvisualiser/GraphVisualiser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +25,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Graph" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -46,36 +42,25 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectId" id="2QJuvw4VKGi66CBgPemCzIcNXlU" />
+  <component name="ProjectId" id="2QPH7kDrXbi4d9hGXlLZAFGyCJ5" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/kunai/OneDrive/Desktop/Sam Zeng/Java/MindNote",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
-  },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "C#"
-    ]
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.MindNote">
-    <configuration name="FileReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="filereader.FileReader" />
+}</component>
+  <component name="RunManager" selected="Application.GraphVisualiser">
+    <configuration name="GraphVisualiser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graphvisualiser.GraphVisualiser" />
       <module name="MindNote" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="filereader.*" />
+          <option name="PATTERN" value="graphvisualiser.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,25 +71,31 @@
     <configuration name="MindNote" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MindNote.MindNote" />
       <module name="MindNote" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MindNote.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GraphVisualiser" />
         <item itemvalue="Application.MindNote" />
-        <item itemvalue="Application.FileReader" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f4f8fb42-0153-4dff-b94a-ff1514f63bbe" name="Changes" comment="" />
-      <created>1685084240114</created>
+      <changelist id="26694d5f-b33f-4837-bcd8-1bb74be6b9c2" name="Changes" comment="" />
+      <created>1685248135148</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1685084240114</updated>
+      <updated>1685248135148</updated>
     </task>
     <servers />
   </component>

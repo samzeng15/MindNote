@@ -2,10 +2,12 @@ package MindNote;
 
 import javax.swing.*;
 import java.awt.event.*;
-import java.util.*;
 
 import filereader.*;
-import graph.*;
+
+import org.javatuples.Pair;
+
+import java.util.ArrayList;
 
 public class MindNote {
     public static void main(String[] args) {
@@ -31,7 +33,10 @@ public class MindNote {
 
                 try {
                     // Open an input stream
-                    filereader.FileReader.readDocxFile(fc.getSelectedFile().getAbsolutePath());
+                    ArrayList<Pair<Integer, String>> out = FileReader.readDocxFile(fc.getSelectedFile().getAbsolutePath());
+                    for (Pair<Integer, String> p : out) {
+                        System.out.println(p);
+                    }
                 }
                 catch (Exception error){
                     System.out.println("Error");
