@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="26694d5f-b33f-4837-bcd8-1bb74be6b9c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/graphgenerator/GraphGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MindNote/MindNote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MindNote/MindNote.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/filereader/FileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/filereader/FileReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/graph/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/graphvisualiser/GraphVisualiser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +49,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.GraphVisualiser">
+  <component name="RunManager" selected="Application.MindNote">
     <configuration name="GraphVisualiser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="graphvisualiser.GraphVisualiser" />
       <module name="MindNote" />
@@ -83,8 +78,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GraphVisualiser" />
         <item itemvalue="Application.MindNote" />
+        <item itemvalue="Application.GraphVisualiser" />
       </list>
     </recent_temporary>
   </component>

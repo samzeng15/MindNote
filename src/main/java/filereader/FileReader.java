@@ -18,15 +18,8 @@ public class FileReader {
 
             List<XWPFParagraph> paragraphs = doc.getParagraphs();
             ArrayList<Pair<Integer, String>> tieredParagraphs = new ArrayList<>();
+            int indentOffset = -1;
             for (XWPFParagraph p : paragraphs) {
-                //self-explanatory
-                System.out.println(p.getText());
-
-                //gets level of indent (bulleted indent) i.e. non bullet = null, first bullet = 0, 2nd = 1, etc
-                System.out.println(p.getNumIlvl());
-
-                //useful for maybe start of paragraph indents ? but not really
-                System.out.println(p.getFirstLineIndent());
                 BigInteger bigLevel = p.getNumIlvl();
                 if (bigLevel == null) {
                     bigLevel = BigInteger.valueOf(-1);
@@ -35,7 +28,18 @@ public class FileReader {
                 String point = p.getText();
 
                 if (p.getFirstLineIndent() != -1) {
+                    indentOffset = p.getFirstLineIndent();
                     level++;
+                }
+                if (p.getIndentationLeft() != -1) {
+                    //could be more than 1 representation to left ?
+                    if (indentOffset == -1) {
+                        level++;
+                    }
+                    else {
+                        int totalIndents = p.getIndentationLeft() / indentOffset;
+                        level += totalIndents;
+                    }
                 }
                 if (p.getText().startsWith("\t")) {
                     int count = 0;
